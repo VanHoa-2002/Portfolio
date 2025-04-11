@@ -1,33 +1,28 @@
 export const skillsData = [
-  'Flutter',
-  'Android',
-  'Kotlin',
-  'Dart',
-  'Java',
-  'Spring-Boot',
   'Javascript',
   'Typescript',
   'Angular',
   'Tailwind',
   'MongoDB',
   'MySQL',
-  'PostgreSQL',
   'HTML',
   'CSS',
   'Git',
-  'AWS',
   'Bootstrap',
-  'Docker',
   'Figma',
-  'Firebase',
+  'Ant Design',
   'MaterialUI',
-  'Nginx',
-  'Strapi'
-]
+  'Stripe',
+  'Python',
+  'Rxjs',
+  'Express',
+  'Nodejs',
+  'Scss',
+  'ReactJS',
+];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
 
 // AVAILABLE SKILLS
 

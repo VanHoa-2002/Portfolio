@@ -1,48 +1,48 @@
 :host {
-    display: block;
+  display: block;
 }
 
 .marquee-container {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .marquee-content {
-    display: flex;
-    animation: marquee 30s linear infinite;
+  display: flex;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee-content:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
 
-    100% {
-        transform: translateX(-50%);
-    }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .group:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .group:hover .group-hover\:border-violet-500 {
-    border-color: rgb(139 92 246);
+  border-color: rgb(139 92 246);
 }
 
 /* Additional smooth transitions */
 .group {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .group img {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .group:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }

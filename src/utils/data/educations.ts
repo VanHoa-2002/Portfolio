@@ -1,22 +1,16 @@
-import { Education } from "@/core/models/education.interface";
+import { Education } from '@/core/models/education.interface';
 
 export const educations: Education[] = [
   {
     id: 1,
-    title: "Full-Stack Web Development with React",
-    duration: "2018",
-    institution: "Coursera - The Hong Kong University of Science and Technology",
+    title: 'University of Information Technology',
+    duration: '2023 - 2025',
+    institution: "GPA: 8.4 / 10 - Bachelor's degree in Information Technology",
   },
   {
     id: 2,
-    title: "Full Stack Web and Multiplatform Mobile App Development",
-    duration: "2017",
-    institution: "Coursera - The Hong Kong University of Science and Technology",
+    title: 'College of Information Technology',
+    duration: '2020 - 2022',
+    institution: "GPA: 7.6 / 10 - College's degree in Information Technology",
   },
-  {
-    id: 3,
-    title: "Become an Android Mobile App Developer",
-    duration: "2020",
-    institution: "Linkedin Learning - Udacity",
-  }
-]
+];
