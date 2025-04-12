@@ -9,7 +9,7 @@ export const experiences: Experience[] = [
   },
   {
     id: 2,
-    title: 'Intern Frontend Developer',
+    title: 'Internship',
     company: 'VnResource',
     duration: 'Sep 2022 - Dec 2022 (3 months)',
   },
